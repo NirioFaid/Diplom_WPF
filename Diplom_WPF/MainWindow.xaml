@@ -1,0 +1,401 @@
+﻿<Window x:Class="Diplom_WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Diplom_WPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="520.09" Width="800" ResizeMode="NoResize" Loaded="Window_Loaded">
+<Grid>
+        <Grid x:Name="Polygons">
+            <Polygon Points="400,75 350,50 400,25 450,50" 
+            Stroke="Black" Fill="WhiteSmoke" StrokeThickness="2">
+            </Polygon>
+            <Polygon Points="450,100 400,75 450,50 500,75" 
+            Stroke="Black" Fill="WhiteSmoke" StrokeThickness="2">
+            </Polygon>
+            <Polygon Points="500,125 450,100 500,75 550,100" 
+            Stroke="Black" Fill="WhiteSmoke" StrokeThickness="2">
+            </Polygon>
+            <Polygon Points="550,150 500,125 550,100 600,125" 
+            Stroke="Black" Fill="WhiteSmoke" StrokeThickness="2">
+            </Polygon>
+            <Polygon Points="350,100 300,75 350,50 400,75" 
+            Stroke="Black" Fill="WhiteSmoke" StrokeThickness="2">
+            </Polygon>
+            <Polygon Points="400,125 350,100 400,75 450,100" 
+            Stroke="Black" Fill="WhiteSmoke" StrokeThickness="2">
+            </Polygon>
+            <Polygon Points="450,150 400,125 450,100 500,125" 
+            Stroke="Black" Fill="WhiteSmoke" StrokeThickness="2">
+            </Polygon>
+            <Polygon Points="500,175 450,150 500,125 550,150" 
+            Stroke="Black" Fill="WhiteSmoke" StrokeThickness="2">
+            </Polygon>
+            <Polygon Points="300,125 250,100 300,75 350,100" 
+            Stroke="Black" Fill="WhiteSmoke" StrokeThickness="2">
+            </Polygon>
+            <Polygon Points="350,150 300,125 350,100 400,125" 
+            Stroke="Black" Fill="WhiteSmoke" StrokeThickness="2">
+            </Polygon>
+            <Polygon Points="400,175 350,150 400,125 450,150" 
+            Stroke="Black" Fill="WhiteSmoke" StrokeThickness="2">
+            </Polygon>
+            <Polygon Points="450,200 400,175 450,150 500,175" 
+            Stroke="Black" Fill="WhiteSmoke" StrokeThickness="2">
+            </Polygon>
+
+            <Polygon Points="600,125 600,175 550,200 550,150" 
+            Stroke="Black" Fill="WhiteSmoke" StrokeThickness="2">
+            </Polygon>
+            <Polygon Points="600,175 600,225 550,250 550,200" 
+            Stroke="Black" Fill="WhiteSmoke" StrokeThickness="2">
+            </Polygon>
+            <Polygon Points="600,225 600,275 550,300 550,250" 
+            Stroke="Black" Fill="WhiteSmoke" StrokeThickness="2">
+            </Polygon>
+            <Polygon Points="600,275 600,325 550,350 550,300" 
+            Stroke="Black" Fill="WhiteSmoke" StrokeThickness="2">
+            </Polygon>
+            <Polygon Points="600,325 600,375 550,400 550,350" 
+            Stroke="Black" Fill="WhiteSmoke" StrokeThickness="2">
+            </Polygon>
+
+            <Polygon Points="550,150 550,200 500,225 500,175" 
+            Stroke="Black" Fill="WhiteSmoke" StrokeThickness="2">
+            </Polygon>
+            <Polygon Points="550,200 550,250 500,275 500,225" 
+            Stroke="Black" Fill="WhiteSmoke" StrokeThickness="2">
+            </Polygon>
+            <Polygon Points="550,250 550,300 500,325 500,275" 
+            Stroke="Black" Fill="WhiteSmoke" StrokeThickness="2">
+            </Polygon>
+            <Polygon Points="550,300 550,350 500,375 500,325" 
+            Stroke="Black" Fill="WhiteSmoke" StrokeThickness="2">
+            </Polygon>
+            <Polygon Points="550,350 550,400 500,425 500,375" 
+            Stroke="Black" Fill="WhiteSmoke" StrokeThickness="2">
+            </Polygon>
+
+            <Polygon Points="450,200 450,250 500,225 500,175" 
+            Stroke="Black" Fill="WhiteSmoke" StrokeThickness="2">
+            </Polygon>
+            <Polygon Points="450,250 450,300 500,275 500,225" 
+            Stroke="Black" Fill="WhiteSmoke" StrokeThickness="2">
+            </Polygon>
+            <Polygon Points="450,300 450,350 500,325 500,275" 
+            Stroke="Black" Fill="WhiteSmoke" StrokeThickness="2">
+            </Polygon>
+            <Polygon Points="450,350 450,400 500,375 500,325" 
+            Stroke="Black" Fill="WhiteSmoke" StrokeThickness="2">
+            </Polygon>
+            <Polygon Points="450,400 450,450 500,425 500,375" 
+            Stroke="Black" Fill="WhiteSmoke" StrokeThickness="2">
+            </Polygon>
+
+            <Polygon Points="300,125 300,175 250,150 250,100" 
+            Stroke="Black" Fill="WhiteSmoke" StrokeThickness="2">
+            </Polygon>
+            <Polygon Points="300,175 300,225 250,200 250,150" 
+            Stroke="Black" Fill="WhiteSmoke" StrokeThickness="2">
+            </Polygon>
+            <Polygon Points="300,225 300,275 250,250 250,200" 
+            Stroke="Black" Fill="WhiteSmoke" StrokeThickness="2">
+            </Polygon>
+            <Polygon Points="300,275 300,325 250,300 250,250" 
+            Stroke="Black" Fill="WhiteSmoke" StrokeThickness="2">
+            </Polygon>
+            <Polygon Points="300,325 300,375 250,350 250,300" 
+            Stroke="Black" Fill="WhiteSmoke" StrokeThickness="2">
+            </Polygon>
+
+            <Polygon Points="350,150 350,200 300,175 300,125" 
+            Stroke="Black" Fill="WhiteSmoke" StrokeThickness="2">
+            </Polygon>
+            <Polygon Points="350,200 350,250 300,225 300,175" 
+            Stroke="Black" Fill="WhiteSmoke" StrokeThickness="2">
+            </Polygon>
+            <Polygon Points="350,250 350,300 300,275 300,225" 
+            Stroke="Black" Fill="WhiteSmoke" StrokeThickness="2">
+            </Polygon>
+            <Polygon Points="350,300 350,350 300,325 300,275" 
+            Stroke="Black" Fill="WhiteSmoke" StrokeThickness="2">
+            </Polygon>
+            <Polygon Points="350,350 350,400 300,375 300,325" 
+            Stroke="Black" Fill="WhiteSmoke" StrokeThickness="2">
+            </Polygon>
+
+            <Polygon Points="400,175 400,225 350,200 350,150" 
+            Stroke="Black" Fill="WhiteSmoke" StrokeThickness="2">
+            </Polygon>
+            <Polygon Points="400,225 400,275 350,250 350,200" 
+            Stroke="Black" Fill="WhiteSmoke" StrokeThickness="2">
+            </Polygon>
+            <Polygon Points="400,275 400,325 350,300 350,250" 
+            Stroke="Black" Fill="WhiteSmoke" StrokeThickness="2">
+            </Polygon>
+            <Polygon Points="400,325 400,375 350,350 350,300" 
+            Stroke="Black" Fill="WhiteSmoke" StrokeThickness="2">
+            </Polygon>
+            <Polygon Points="400,375 400,425 350,400 350,350" 
+            Stroke="Black" Fill="WhiteSmoke" StrokeThickness="2">
+            </Polygon>
+
+            <Polygon Points="450,200 450,250 400,225 400,175" 
+            Stroke="Black" Fill="WhiteSmoke" StrokeThickness="2">
+            </Polygon>
+            <Polygon Points="450,250 450,300 400,275 400,225" 
+            Stroke="Black" Fill="WhiteSmoke" StrokeThickness="2">
+            </Polygon>
+            <Polygon Points="450,300 450,350 400,325 400,275" 
+            Stroke="Black" Fill="WhiteSmoke" StrokeThickness="2">
+            </Polygon>
+            <Polygon Points="450,350 450,400 400,375 400,325" 
+            Stroke="Black" Fill="WhiteSmoke" StrokeThickness="2">
+            </Polygon>
+            <Polygon Points="450,400 450,450 400,425 400,375" 
+            Stroke="Black" Fill="WhiteSmoke" StrokeThickness="2">
+            </Polygon>
+        </Grid>
+        <Grid x:Name="TextBlocks">
+            <TextBlock Name="u11" Text="NULLNULL" Background="Transparent" Margin="372,41,364,434" HorizontalAlignment="Center">
+            </TextBlock>
+            <TextBlock Name="u12" Text="NULLNULL" Background="Transparent" Margin="423,66,314,409" HorizontalAlignment="Center">
+            </TextBlock>
+            <TextBlock Name="u13" Text="NULLNULL" Background="Transparent" Margin="473,91,264,384" HorizontalAlignment="Center">
+            </TextBlock>
+            <TextBlock Name="u14" Text="NULLNULL" Background="Transparent" Margin="523,116,213,359" HorizontalAlignment="Center">
+            </TextBlock>
+            <TextBlock Name="u21" Text="NULLNULL" Background="Transparent" Margin="320,66,416,409" HorizontalAlignment="Center">
+            </TextBlock>
+            <TextBlock Name="u22" Text="NULLNULL" Background="Transparent" Margin="372,91,364,384" HorizontalAlignment="Center">
+            </TextBlock>
+            <TextBlock Name="u23" Text="NULLNULL" Background="Transparent" Margin="422,116,314,359" HorizontalAlignment="Center">
+            </TextBlock>
+            <TextBlock Name="u24" Text="NULLNULL" Background="Transparent" Margin="472,142,264,333" HorizontalAlignment="Center">
+            </TextBlock>
+            <TextBlock Name="u31" Text="NULLNULL" Background="Transparent" Margin="270,91,466,384" HorizontalAlignment="Center">
+            </TextBlock>
+            <TextBlock Name="u32" Text="NULLNULL" Background="Transparent" Margin="320,116,416,359" HorizontalAlignment="Center">
+            </TextBlock>
+            <TextBlock Name="u33" Text="NULLNULL" Background="Transparent" Margin="372,142,364,333" HorizontalAlignment="Center">
+            </TextBlock>
+            <TextBlock Name="u34" Text="NULLNULL" Background="Transparent" Margin="422,166,314,309" HorizontalAlignment="Center">
+            </TextBlock>
+
+            <TextBlock Name="r11" Text="NULLNULL" Background="Transparent" Margin="446,203,291,272" HorizontalAlignment="Center" RenderTransformOrigin="0.5,0.5">
+                <TextBlock.RenderTransform>
+                    <RotateTransform Angle="-30"/>
+                </TextBlock.RenderTransform>
+            </TextBlock>
+            <TextBlock Name="r12" Text="NULLNULL" Background="Transparent" Margin="496,179,240,296" HorizontalAlignment="Center" RenderTransformOrigin="0.5,0.5">
+                <TextBlock.RenderTransform>
+                    <RotateTransform Angle="-30"/>
+                </TextBlock.RenderTransform>
+            </TextBlock>
+            <TextBlock Name="r13" Text="NULLNULL" Background="Transparent" Margin="546,153,190,322" HorizontalAlignment="Center" RenderTransformOrigin="0.5,0.5">
+                <TextBlock.RenderTransform>
+                    <RotateTransform Angle="-30"/>
+                </TextBlock.RenderTransform>
+            </TextBlock>
+            <TextBlock Name="r21" Text="NULLNULL" Background="Transparent" Margin="445,254,291,221" HorizontalAlignment="Center" RenderTransformOrigin="0.5,0.5">
+                <TextBlock.RenderTransform>
+                    <RotateTransform Angle="-30"/>
+                </TextBlock.RenderTransform>
+            </TextBlock>
+            <TextBlock Name="r22" Text="NULLNULL" Background="Transparent" Margin="496,229,240,246" HorizontalAlignment="Center" RenderTransformOrigin="0.5,0.5">
+                <TextBlock.RenderTransform>
+                    <RotateTransform Angle="-30"/>
+                </TextBlock.RenderTransform>
+            </TextBlock>
+            <TextBlock Name="r23" Text="NULLNULL" Background="Transparent" Margin="545,204,191,271" HorizontalAlignment="Center" RenderTransformOrigin="0.5,0.5">
+                <TextBlock.RenderTransform>
+                    <RotateTransform Angle="-30"/>
+                </TextBlock.RenderTransform>
+            </TextBlock>
+            <TextBlock Name="r31" Text="NULLNULL" Background="Transparent" Margin="445,304,291,171" HorizontalAlignment="Center" RenderTransformOrigin="0.5,0.5">
+                <TextBlock.RenderTransform>
+                    <RotateTransform Angle="-30"/>
+                </TextBlock.RenderTransform>
+            </TextBlock>
+            <TextBlock Name="r32" Text="NULLNULL" Background="Transparent" Margin="496,278,240,197" HorizontalAlignment="Center" RenderTransformOrigin="0.5,0.5">
+                <TextBlock.RenderTransform>
+                    <RotateTransform Angle="-30"/>
+                </TextBlock.RenderTransform>
+            </TextBlock>
+            <TextBlock Name="r33" Text="NULLNULL" Background="Transparent" Margin="546,253,190,222" HorizontalAlignment="Center" RenderTransformOrigin="0.5,0.5">
+                <TextBlock.RenderTransform>
+                    <RotateTransform Angle="-30"/>
+                </TextBlock.RenderTransform>
+            </TextBlock>
+            <TextBlock Name="r41" Text="NULLNULL" Background="Transparent" Margin="446,354,290,121" HorizontalAlignment="Center" RenderTransformOrigin="0.5,0.5">
+                <TextBlock.RenderTransform>
+                    <RotateTransform Angle="-30"/>
+                </TextBlock.RenderTransform>
+            </TextBlock>
+            <TextBlock Name="r42" Text="NULLNULL" Background="Transparent" Margin="496,328,240,147" HorizontalAlignment="Center" RenderTransformOrigin="0.5,0.5">
+                <TextBlock.RenderTransform>
+                    <RotateTransform Angle="-30"/>
+                </TextBlock.RenderTransform>
+            </TextBlock>
+            <TextBlock Name="r43" Text="NULLNULL" Background="Transparent" Margin="546,304,192,171" HorizontalAlignment="Center" RenderTransformOrigin="0.5,0.5">
+                <TextBlock.RenderTransform>
+                    <RotateTransform Angle="-30"/>
+                </TextBlock.RenderTransform>
+            </TextBlock>
+            <TextBlock Name="r51" Text="NULLNULL" Background="Transparent" Margin="446,403,290,72" HorizontalAlignment="Center" RenderTransformOrigin="0.5,0.5">
+                <TextBlock.RenderTransform>
+                    <RotateTransform Angle="-30"/>
+                </TextBlock.RenderTransform>
+            </TextBlock>
+            <TextBlock Name="r52" Text="NULLNULL" Background="Transparent" Margin="496,377,240,98" HorizontalAlignment="Center" RenderTransformOrigin="0.5,0.5">
+                <TextBlock.RenderTransform>
+                    <RotateTransform Angle="-30"/>
+                </TextBlock.RenderTransform>
+            </TextBlock>
+            <TextBlock Name="r53" Text="NULLNULL" Background="Transparent" Margin="546,353,192,122" HorizontalAlignment="Center" RenderTransformOrigin="0.5,0.5">
+                <TextBlock.RenderTransform>
+                    <RotateTransform Angle="-30"/>
+                </TextBlock.RenderTransform>
+            </TextBlock>
+        </Grid>
+        <Grid x:Name="TextBoxs">
+            <TextBox Name="l11" Text="NULLNULL" TextChanged="l11_TextChanged" Background="Transparent" BorderBrush="Transparent" Margin="243,126,485,344" HorizontalAlignment="Center" RenderTransformOrigin="0.5,0.5">
+                <TextBox.RenderTransform>
+                    <RotateTransform Angle="30"/>
+                </TextBox.RenderTransform>
+            </TextBox>
+            <TextBox Name="l12" Text="NULLNULL" TextChanged="l12_TextChanged" Background="Transparent" BorderBrush="Transparent" Margin="292,151,434,319" HorizontalAlignment="Center" RenderTransformOrigin="0.5,0.5">
+                <TextBox.RenderTransform>
+                    <RotateTransform Angle="30"/>
+                </TextBox.RenderTransform>
+            </TextBox>
+            <TextBox Name="l13" Text="NULLNULL" TextChanged="l13_TextChanged" Background="Transparent" BorderBrush="Transparent" Margin="343,176,385,294" HorizontalAlignment="Center" RenderTransformOrigin="0.5,0.5">
+                <TextBox.RenderTransform>
+                    <RotateTransform Angle="30"/>
+                </TextBox.RenderTransform>
+            </TextBox>
+            <TextBox Name="l14" Text="NULLNULL" TextChanged="l14_TextChanged" Background="Transparent" BorderBrush="Transparent" Margin="393,201,335,269" HorizontalAlignment="Center" RenderTransformOrigin="0.5,0.5">
+                <TextBox.RenderTransform>
+                    <RotateTransform Angle="30"/>
+                </TextBox.RenderTransform>
+            </TextBox>
+            <TextBox Name="l21" Text="NULLNULL" TextChanged="l21_TextChanged" Background="Transparent" BorderBrush="Transparent" Margin="243,176,485,294" HorizontalAlignment="Center" RenderTransformOrigin="0.5,0.5">
+                <TextBox.RenderTransform>
+                    <RotateTransform Angle="30"/>
+                </TextBox.RenderTransform>
+            </TextBox>
+            <TextBox Name="l22" Text="NULLNULL" TextChanged="l22_TextChanged" Background="Transparent" BorderBrush="Transparent" Margin="293,201,435,269" HorizontalAlignment="Center" RenderTransformOrigin="0.5,0.5">
+                <TextBox.RenderTransform>
+                    <RotateTransform Angle="30"/>
+                </TextBox.RenderTransform>
+            </TextBox>
+            <TextBox Name="l23" Text="NULLNULL" TextChanged="l23_TextChanged" Background="Transparent" BorderBrush="Transparent" Margin="343,226,385,244" HorizontalAlignment="Center" RenderTransformOrigin="0.5,0.5">
+                <TextBox.RenderTransform>
+                    <RotateTransform Angle="30"/>
+                </TextBox.RenderTransform>
+            </TextBox>
+            <TextBox Name="l24" Text="NULLNULL" TextChanged="l24_TextChanged" Background="Transparent" BorderBrush="Transparent" Margin="393,251,335,219" HorizontalAlignment="Center" RenderTransformOrigin="0.5,0.5">
+                <TextBox.RenderTransform>
+                    <RotateTransform Angle="30"/>
+                </TextBox.RenderTransform>
+            </TextBox>
+            <TextBox Name="l31" Text="NULLNULL" TextChanged="l31_TextChanged" Background="Transparent" BorderBrush="Transparent" Margin="243,226,485,244" HorizontalAlignment="Center" RenderTransformOrigin="0.5,0.5">
+                <TextBox.RenderTransform>
+                    <RotateTransform Angle="30"/>
+                </TextBox.RenderTransform>
+            </TextBox>
+            <TextBox Name="l32" Text="NULLNULL" TextChanged="l32_TextChanged" Background="Transparent" BorderBrush="Transparent" Margin="293,251,435,219" HorizontalAlignment="Center" RenderTransformOrigin="0.5,0.5">
+                <TextBox.RenderTransform>
+                    <RotateTransform Angle="30"/>
+                </TextBox.RenderTransform>
+            </TextBox>
+            <TextBox Name="l33" Text="NULLNULL" TextChanged="l33_TextChanged" Background="Transparent" BorderBrush="Transparent" Margin="343,276,385,194" HorizontalAlignment="Center" RenderTransformOrigin="0.5,0.5">
+                <TextBox.RenderTransform>
+                    <RotateTransform Angle="30"/>
+                </TextBox.RenderTransform>
+            </TextBox>
+            <TextBox Name="l34" Text="NULLNULL" TextChanged="l34_TextChanged" Background="Transparent" BorderBrush="Transparent" Margin="393,301,335,169" HorizontalAlignment="Center" RenderTransformOrigin="0.5,0.5">
+                <TextBox.RenderTransform>
+                    <RotateTransform Angle="30"/>
+                </TextBox.RenderTransform>
+            </TextBox>
+            <TextBox Name="l41" Text="NULLNULL" TextChanged="l41_TextChanged" Background="Transparent" BorderBrush="Transparent" Margin="243,276,485,194" HorizontalAlignment="Center" RenderTransformOrigin="0.5,0.5">
+                <TextBox.RenderTransform>
+                    <RotateTransform Angle="30"/>
+                </TextBox.RenderTransform>
+            </TextBox>
+            <TextBox Name="l42" Text="NULLNULL" TextChanged="l42_TextChanged" Background="Transparent" BorderBrush="Transparent" Margin="293,301,435,169" HorizontalAlignment="Center" RenderTransformOrigin="0.5,0.5">
+                <TextBox.RenderTransform>
+                    <RotateTransform Angle="30"/>
+                </TextBox.RenderTransform>
+            </TextBox>
+            <TextBox Name="l43" Text="NULLNULL" TextChanged="l43_TextChanged" Background="Transparent" BorderBrush="Transparent" Margin="343,326,385,144" HorizontalAlignment="Center" RenderTransformOrigin="0.5,0.5">
+                <TextBox.RenderTransform>
+                    <RotateTransform Angle="30"/>
+                </TextBox.RenderTransform>
+            </TextBox>
+            <TextBox Name="l44" Text="NULLNULL" TextChanged="l44_TextChanged" Background="Transparent" BorderBrush="Transparent" Margin="393,351,335,119" HorizontalAlignment="Center" RenderTransformOrigin="0.5,0.5">
+                <TextBox.RenderTransform>
+                    <RotateTransform Angle="30"/>
+                </TextBox.RenderTransform>
+            </TextBox>
+            <TextBox Name="l51" Text="NULLNULL" TextChanged="l51_TextChanged" Background="Transparent" BorderBrush="Transparent" Margin="243,326,485,144" HorizontalAlignment="Center" RenderTransformOrigin="0.5,0.5">
+                <TextBox.RenderTransform>
+                    <RotateTransform Angle="30"/>
+                </TextBox.RenderTransform>
+            </TextBox>
+            <TextBox Name="l52" Text="NULLNULL" TextChanged="l52_TextChanged" Background="Transparent" BorderBrush="Transparent" Margin="293,351,435,119" HorizontalAlignment="Center" RenderTransformOrigin="0.5,0.5">
+                <TextBox.RenderTransform>
+                    <RotateTransform Angle="30"/>
+                </TextBox.RenderTransform>
+            </TextBox>
+            <TextBox Name="l53" Text="NULLNULL" TextChanged="l53_TextChanged" Background="Transparent" BorderBrush="Transparent" Margin="343,376,385,94" HorizontalAlignment="Center" RenderTransformOrigin="0.5,0.5">
+                <TextBox.RenderTransform>
+                    <RotateTransform Angle="30"/>
+                </TextBox.RenderTransform>
+            </TextBox>
+            <TextBox Name="l54" Text="NULLNULL" TextChanged="l54_TextChanged" Background="Transparent" BorderBrush="Transparent" Margin="393,401,335,69" HorizontalAlignment="Center" RenderTransformOrigin="0.5,0.5">
+                <TextBox.RenderTransform>
+                    <RotateTransform Angle="30"/>
+                </TextBox.RenderTransform>
+            </TextBox>
+        </Grid>
+        <Grid x:Name="Headers">
+            <TextBlock Name="dh1" Text="YYYY.MM" Background="Transparent" Margin="0,26,443,440" HorizontalAlignment="Right" FontSize="20" FontWeight="Bold" TextDecorations="Underline">
+            </TextBlock>
+            <TextBlock Name="dh2" Text="YYYY.MM" Background="Transparent" Margin="0,51,495,415" HorizontalAlignment="Right" FontSize="20" FontWeight="Bold" TextDecorations="Underline">
+            </TextBlock>
+            <TextBlock Name="dh3" Text="YYYY.MM" Background="Transparent" Margin="0,76,545,390" HorizontalAlignment="Right" FontSize="20" FontWeight="Bold" TextDecorations="Underline">
+            </TextBlock>
+            <TextBlock Name="ph1" Text="production_number1" Background="Transparent" Margin="0,127,545,339" HorizontalAlignment="Right" FontSize="20" FontWeight="Bold" TextDecorations="Underline">
+            </TextBlock>
+            <TextBlock Name="ph2" Text="production_number2" Background="Transparent" Margin="0,177,545,289" HorizontalAlignment="Right" FontSize="20" FontWeight="Bold" TextDecorations="Underline">
+            </TextBlock>
+            <TextBlock Name="ph3" Text="production_number3" Background="Transparent" Margin="0,227,545,239" HorizontalAlignment="Right" FontSize="20" FontWeight="Bold" TextDecorations="Underline">
+            </TextBlock>
+            <TextBlock Name="ph4" Text="production_number4" Background="Transparent" Margin="0,277,545,189" HorizontalAlignment="Right" FontSize="20" FontWeight="Bold" TextDecorations="Underline">
+            </TextBlock>
+            <TextBlock Name="ph5" Text="production_number5" Background="Transparent" Margin="0,327,545,139" HorizontalAlignment="Right" FontSize="20" FontWeight="Bold" TextDecorations="Underline">
+            </TextBlock>
+            <TextBlock Name="fh1" Text="factory_name1" Background="Transparent" Margin="451,26,0,440" HorizontalAlignment="Left" FontSize="20" FontWeight="Bold" TextDecorations="Underline">
+            </TextBlock>
+            <TextBlock Name="fh2" Text="factory_name2" Background="Transparent" Margin="501,51,0,415" HorizontalAlignment="Left" FontSize="20" FontWeight="Bold" TextDecorations="Underline">
+            </TextBlock>
+            <TextBlock Name="fh3" Text="factory_name3" Background="Transparent" Margin="551,76,0,390" HorizontalAlignment="Left" FontSize="20" FontWeight="Bold" TextDecorations="Underline">
+            </TextBlock>
+            <TextBlock Name="fh4" Text="factory_name4" Background="Transparent" Margin="601,101,0,365" HorizontalAlignment="Left" FontSize="20" FontWeight="Bold" TextDecorations="Underline">
+            </TextBlock>
+        </Grid>
+        <Button Height="20" Margin="570,388,185,84" Click="Button_Click" Content="→" RenderTransformOrigin="0.5,0.5">
+            <Button.RenderTransform>
+                <RotateTransform Angle="-25"/>
+            </Button.RenderTransform>
+        </Button>
+        <Button Height="20" Margin="458,444,297,28" Click="Button_Click_1" Content="←" RenderTransformOrigin="0.5,0.5">
+            <Button.RenderTransform>
+                <RotateTransform Angle="-25"/>
+            </Button.RenderTransform>
+        </Button>
+    </Grid>
+</Window>
